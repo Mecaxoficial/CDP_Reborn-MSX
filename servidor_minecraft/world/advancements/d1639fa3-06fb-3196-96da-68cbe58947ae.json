@@ -113,6 +113,12 @@
     },
     "done": true
   },
+  "create_connected:recipes/crafting/kinetics/empty_fan_catalyst_from_freezing": {
+    "criteria": {
+      "has_item": "2024-12-03 02:23:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/magenta_wool": {
     "criteria": {
       "has_white_wool": "2024-10-20 19:56:13 +0000"
@@ -542,6 +548,12 @@
   "travelersbackpack:recipes/travelersbackpack/standard_smithing": {
     "criteria": {
       "has_standard": "2024-10-21 01:07:35 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/smelting/scoria": {
+    "criteria": {
+      "has_item": "2024-12-01 22:37:49 +0000"
     },
     "done": true
   },
@@ -1115,6 +1127,12 @@
     },
     "done": true
   },
+  "toms_storage:unlock_glowstone": {
+    "criteria": {
+      "inv_changed-glowstone": "2024-12-01 22:20:34 +0000"
+    },
+    "done": true
+  },
   "astikorcarts:recipes/animal_cart": {
     "criteria": {
       "has_wheel": "2024-10-20 19:52:07 +0000"
@@ -1220,6 +1238,12 @@
   "create:recipes/create.palettes/cut_andesite_wall_from_stone_types_andesite_stonecutting": {
     "criteria": {
       "has_stone_types_andesite": "2024-10-20 21:38:42 +0000"
+    },
+    "done": true
+  },
+  "create_connected:recipes/crafting/kinetics/empty_fan_catalyst_from_blasting": {
+    "criteria": {
+      "has_item": "2024-12-03 02:23:37 +0000"
     },
     "done": true
   },
@@ -2051,6 +2075,12 @@
     },
     "done": true
   },
+  "create_connected:recipes/crafting/kinetics/empty_fan_catalyst_from_haunting": {
+    "criteria": {
+      "has_item": "2024-12-03 02:23:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/green_concrete_powder": {
     "criteria": {
       "has_gravel": "2024-10-20 22:23:27 +0000"
@@ -2527,6 +2557,12 @@
     },
     "done": true
   },
+  "create_connected:recipes/crafting/kinetics/empty_fan_catalyst_from_splashing": {
+    "criteria": {
+      "has_item": "2024-12-03 02:23:37 +0000"
+    },
+    "done": true
+  },
   "create_connected:recipes/crafting/kinetics/fluid_vessel_from_conversion": {
     "criteria": {
       "has_item": "2024-11-24 22:02:50 +0000"
@@ -2747,6 +2783,13 @@
   "create:recipes/create.palettes/diorite_pillar_from_stone_types_diorite_stonecutting": {
     "criteria": {
       "has_stone_types_diorite": "2024-10-20 22:22:46 +0000"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_dia_pearl": {
+    "criteria": {
+      "inv_changed-ender_pearl": "2024-12-01 22:20:34 +0000",
+      "inv_changed-diamond": "2024-12-01 22:20:34 +0000"
     },
     "done": true
   },
@@ -3190,6 +3233,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2024-12-01 22:42:59 +0000"
+    },
+    "done": true
+  },
   "copycats:recipes/copycats.main/stonecutting/copycat_light_weighted_pressure_plate": {
     "criteria": {
       "has_item": "2024-10-20 23:06:00 +0000"
@@ -3473,6 +3522,12 @@
     },
     "done": true
   },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2024-12-01 22:42:19 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_candle": {
     "criteria": {
       "has_white_dye": "2024-10-21 01:36:59 +0000"
@@ -3638,12 +3693,15 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:blaze": "2024-10-26 03:16:34 +0000",
+      "minecraft:pillager": "2024-12-03 02:17:34 +0000",
       "minecraft:skeleton": "2024-10-20 21:45:16 +0000",
+      "minecraft:ghast": "2024-12-01 22:42:19 +0000",
       "minecraft:spider": "2024-10-20 21:20:59 +0000",
       "minecraft:creeper": "2024-10-20 21:45:30 +0000",
       "minecraft:zombified_piglin": "2024-10-26 02:57:18 +0000",
       "minecraft:wither_skeleton": "2024-10-26 03:17:30 +0000",
       "minecraft:cave_spider": "2024-10-23 21:53:33 +0000",
+      "minecraft:piglin": "2024-12-01 22:45:15 +0000",
       "minecraft:enderman": "2024-11-23 02:02:49 +0000",
       "minecraft:zombie": "2024-10-20 21:20:56 +0000",
       "minecraft:drowned": "2024-10-22 00:57:39 +0000"
@@ -3719,6 +3777,12 @@
   "create:recipes/create.base/crafting/kinetics/mechanical_press": {
     "criteria": {
       "has_item": "2024-10-20 23:08:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2024-12-03 03:44:29 +0000"
     },
     "done": true
   },
@@ -3819,6 +3883,12 @@
     },
     "done": true
   },
+  "create_connected:recipes/crafting/kinetics/empty_fan_catalyst_from_smoking": {
+    "criteria": {
+      "has_item": "2024-12-03 02:23:37 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/travelersbackpack/lapis": {
     "criteria": {
       "has_lapis_lazuli": "2024-10-20 22:09:45 +0000"
@@ -3907,6 +3977,12 @@
   "create:crafter_lazy_000": {
     "criteria": {
       "0": "2024-11-24 19:27:20 +0000"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_netherite": {
+    "criteria": {
+      "inv_changed-netherite": "2024-12-01 22:20:34 +0000"
     },
     "done": true
   },
@@ -4039,6 +4115,12 @@
   "create:recipes/create.base/crafting/kinetics/secondary_linear_chassisfrom_conversion": {
     "criteria": {
       "has_item": "2024-10-28 23:57:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2024-12-01 22:30:52 +0000"
     },
     "done": true
   },
@@ -4269,6 +4351,7 @@
       "minecraft:deep_ocean": "2024-10-22 01:47:45 +0000",
       "minecraft:birch_forest": "2024-10-25 23:45:45 +0000",
       "minecraft:bamboo_jungle": "2024-10-27 21:30:34 +0000",
+      "minecraft:savanna_plateau": "2024-12-01 23:03:56 +0000",
       "minecraft:beach": "2024-10-20 21:37:42 +0000",
       "minecraft:dark_forest": "2024-10-25 23:45:49 +0000",
       "minecraft:sparse_jungle": "2024-10-27 21:30:54 +0000",
@@ -4282,6 +4365,7 @@
       "minecraft:jungle": "2024-10-27 21:30:19 +0000",
       "minecraft:old_growth_birch_forest": "2024-10-22 00:38:06 +0000",
       "minecraft:meadow": "2024-10-25 23:48:30 +0000",
+      "minecraft:savanna": "2024-12-01 23:03:56 +0000",
       "minecraft:plains": "2024-10-20 19:51:56 +0000"
     },
     "done": false
@@ -4289,6 +4373,12 @@
   "create:recipes/create.base/crafting/kinetics/flywheel": {
     "criteria": {
       "has_item": "2024-10-27 20:57:19 +0000"
+    },
+    "done": true
+  },
+  "create_connected:recipes/crafting/kinetics/empty_fan_catalyst": {
+    "criteria": {
+      "has_the_recipe": "2024-12-03 02:23:37 +0000"
     },
     "done": true
   },
@@ -4529,6 +4619,12 @@
   "create:recipes/create.base/crafting/materials/electron_tube": {
     "criteria": {
       "has_item": "2024-10-26 22:43:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2024-12-01 22:37:49 +0000"
     },
     "done": true
   },
@@ -4804,11 +4900,14 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2024-12-03 03:50:26 +0000",
       "cooked_mutton": "2024-10-20 21:28:03 +0000",
       "cooked_beef": "2024-10-20 21:41:59 +0000",
       "apple": "2024-10-20 21:31:56 +0000",
       "bread": "2024-10-23 21:19:11 +0000",
-      "rotten_flesh": "2024-10-20 21:21:19 +0000"
+      "rotten_flesh": "2024-10-20 21:21:19 +0000",
+      "cooked_salmon": "2024-12-03 00:19:45 +0000",
+      "carrot": "2024-12-03 02:46:38 +0000"
     },
     "done": false
   },
@@ -5155,6 +5254,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2024-12-01 22:30:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_shovel": {
     "criteria": {
       "has_diamond": "2024-10-21 00:41:43 +0000"
@@ -5242,6 +5347,12 @@
   "travelersbackpack:recipes/travelersbackpack/chicken": {
     "criteria": {
       "has_feather": "2024-10-26 22:32:43 +0000"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_chest": {
+    "criteria": {
+      "inv_changed-chest": "2024-12-01 22:20:34 +0000"
     },
     "done": true
   },
@@ -5521,6 +5632,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_core": "2024-12-03 00:06:56 +0000"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/polished_cut_calcite_from_stone_types_calcite_stonecutting": {
     "criteria": {
       "has_stone_types_calcite": "2024-10-20 22:24:50 +0000"
@@ -5641,12 +5758,6 @@
     },
     "done": true
   },
-  "vanillatweaks:nether_portal_coords": {
-    "criteria": {
-      "tick": "2024-10-20 19:51:56 +0000"
-    },
-    "done": true
-  },
   "railways:recipes/railways/crafting/smokestack_diesel": {
     "criteria": {
       "has_item": "2024-10-20 21:34:15 +0000"
@@ -5680,6 +5791,12 @@
   "minecraft:recipes/tools/compass": {
     "criteria": {
       "has_redstone": "2024-10-23 21:24:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2024-12-01 22:48:24 +0000"
     },
     "done": true
   },

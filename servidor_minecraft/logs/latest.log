@@ -1,80 +1,78 @@
-[27Nov2024 23:22:17.691] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.3.0, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
-[27Nov2024 23:22:17.697] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[27Nov2024 23:22:18.264] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Servidor-mod/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
-[27Nov2024 23:22:18.627] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-mod/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.3.0/fmlcore-1.19.2-43.3.0.jar is missing mods.toml file
-[27Nov2024 23:22:18.628] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-mod/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.3.0/javafmllanguage-1.19.2-43.3.0.jar is missing mods.toml file
-[27Nov2024 23:22:18.630] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-mod/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.3.0/lowcodelanguage-1.19.2-43.3.0.jar is missing mods.toml file
-[27Nov2024 23:22:18.631] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor-mod/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.3.0/mclanguage-1.19.2-43.3.0.jar is missing mods.toml file
-[27Nov2024 23:22:18.868] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 10 dependencies adding them to mods collection
-[27Nov2024 23:22:20.434] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[27Nov2024 23:22:20.521] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[27Nov2024 23:22:20.770] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.18.0+mc1.19.2: 87 options available, 0 override(s) found
-[27Nov2024 23:22:20.771] [main/INFO] [ModernFix/]: Applying Nashorn fix
-[27Nov2024 23:22:20.785] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
-[27Nov2024 23:22:20.936] [main/WARN] [mixin/]: Error loading class: com/firemerald/additionalplacements/common/ConfigCommon (java.lang.ClassNotFoundException: com.firemerald.additionalplacements.common.ConfigCommon)
-[27Nov2024 23:22:20.937] [main/WARN] [mixin/]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com.firemerald.additionalplacements.block.AdditionalPlacementBlock)
-[27Nov2024 23:22:20.938] [main/WARN] [mixin/]: @Mixin target com.firemerald.additionalplacements.block.AdditionalPlacementBlock was not found copycats-common.mixins.json:compat.additionalplacements.PlacementBlockMixin
-[27Nov2024 23:22:20.968] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me.jellysquid.mods.lithium.common.ai.pathing.PathNodeDefaults)
-[27Nov2024 23:22:20.969] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockOcclusionCache (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.render.chunk.compile.pipeline.BlockOcclusionCache)
-[27Nov2024 23:22:20.970] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/render/pipeline/BlockRenderer (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.render.pipeline.BlockRenderer)
-[27Nov2024 23:22:20.971] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/world/WorldSlice (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.world.WorldSlice)
-[27Nov2024 23:22:20.971] [main/WARN] [mixin/]: @Mixin target me.jellysquid.mods.sodium.client.world.WorldSlice was not found copycats-common.mixins.json:compat.rubidium.WorldSliceAccessor
-[27Nov2024 23:22:21.091] [main/WARN] [mixin/]: Error loading class: cjminecraft/doubleslabs/common/config/DSConfig$Common (java.lang.ClassNotFoundException: cjminecraft.doubleslabs.common.config.DSConfig$Common)
-[27Nov2024 23:22:21.201] [main/WARN] [mixin/]: Error loading class: vazkii/quark/content/tools/module/BeaconRedirectionModule (java.lang.ClassNotFoundException: vazkii.quark.content.tools.module.BeaconRedirectionModule)
-[27Nov2024 23:22:21.201] [main/WARN] [mixin/]: @Mixin target vazkii.quark.content.tools.module.BeaconRedirectionModule was not found mixins.better_beacons.json:quark.BeaconRedirectionModuleMixin
-[27Nov2024 23:22:21.720] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me.jellysquid.mods.lithium.common.ai.pathing.PathNodeDefaults)
-[27Nov2024 23:22:21.751] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/simibubi/create/foundation/gui/AbstractSimiScreen for invalid dist DEDICATED_SERVER
-[27Nov2024 23:22:21.752] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/gui/AbstractSimiScreen (java.lang.RuntimeException: Attempted to load class com/simibubi/create/foundation/gui/AbstractSimiScreen for invalid dist DEDICATED_SERVER)
-[27Nov2024 23:22:21.752] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.foundation.gui.AbstractSimiScreen was not found create_connected.mixins.json:sequencedgearshift.AbstractSimiScreenAccessor
-[27Nov2024 23:22:21.803] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Will be applying 2 memory leak fixes!
-[27Nov2024 23:22:21.804] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Currently enabled memory leak fixes: [entityMemoriesLeak, biomeTemperatureLeak]
-[27Nov2024 23:22:21.810] [main/WARN] [mixin/]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com.firemerald.additionalplacements.block.AdditionalPlacementBlock)
-[27Nov2024 23:22:21.811] [main/WARN] [mixin/]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com.firemerald.additionalplacements.block.AdditionalPlacementBlock)
-[27Nov2024 23:22:21.951] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[27Nov2024 23:22:22.481] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (7.170 s after launch)
-[27Nov2024 23:22:22.633] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[27Nov2024 23:22:22.633] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[27Nov2024 23:22:23.487] [main/WARN] [mixin/]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com.firemerald.additionalplacements.block.AdditionalPlacementBlock)
-[27Nov2024 23:22:23.520] [main/WARN] [mixin/]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com.firemerald.additionalplacements.block.AdditionalPlacementBlock)
-[27Nov2024 23:22:23.649] [main/WARN] [mixin/]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com.firemerald.additionalplacements.block.AdditionalPlacementBlock)
-[27Nov2024 23:22:23.659] [main/WARN] [mixin/]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com.firemerald.additionalplacements.block.AdditionalPlacementBlock)
-[27Nov2024 23:22:23.666] [main/WARN] [mixin/]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com.firemerald.additionalplacements.block.AdditionalPlacementBlock)
-[27Nov2024 23:22:24.093] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 1608 milliseconds
-[27Nov2024 23:22:24.616] [main/WARN] [mixin/]: @Final field f_58656_:Lnet/minecraft/world/inventory/ContainerData; in mixins.better_beacons.json:block.entity.BeaconBlockEntityMixin should be final
-[27Nov2024 23:22:24.645] [main/WARN] [mixin/]: @Final field f_58646_:[[Lnet/minecraft/world/effect/MobEffect; in mixins.better_beacons.json:block.entity.BeaconBlockEntityMixin should be final
-[27Nov2024 23:22:24.647] [main/WARN] [mixin/]: @Final field f_58647_:Ljava/util/Set; in mixins.better_beacons.json:block.entity.BeaconBlockEntityMixin should be final
-[27Nov2024 23:22:24.649] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on mixins.better_beacons.json:block.entity.BeaconBlockEntityMixin::handler$zcf000$better_beacons_applyTertiaryEffects exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[27Nov2024 23:22:27.100] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
-[27Nov2024 23:22:27.322] [modloading-worker-0/INFO] [plus.dragons.createdragonlib.DragonLib/]: Create: Dragon Lib 1.4.4 has initialized, ready to support your Create add-ons!
-[27Nov2024 23:22:27.448] [modloading-worker-0/WARN] [mixin/]: @Redirect conflict. Skipping modernfix-forge.mixins.json:perf.datapack_reload_exceptions.LootTableManagerMixin->@Redirect::logWithoutStacktrace(Lorg/slf4j/Logger;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V with priority 2000, already redirected by railways-common.mixins.json:MixinLootTables->@Redirect::railways$error2(Lorg/slf4j/Logger;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V with priority 10000
-[27Nov2024 23:22:27.504] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.3.0, for MC 1.19.2 with MCP 20220805.130853
-[27Nov2024 23:22:27.504] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.3.0 Initialized
-[27Nov2024 23:22:28.119] [modloading-worker-0/INFO] [Railways/]: Registered bogey styles from railways
-[27Nov2024 23:22:28.353] [modloading-worker-0/INFO] [Railways/]: Registering data fixers
-[27Nov2024 23:22:28.479] [modloading-worker-0/INFO] [ModernFix/]: Bypassed Mojang DFU
-[27Nov2024 23:22:28.480] [modloading-worker-0/INFO] [ModernFix/]: Instantiating Mojang DFU
-[27Nov2024 23:22:28.942] [modloading-worker-0/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[27Nov2024 23:22:28.960] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Hex Casting
-[27Nov2024 23:22:28.960] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Oh The Biomes You'll Go
-[27Nov2024 23:22:28.961] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Blue Skies
-[27Nov2024 23:22:28.962] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Twilight Forest
-[27Nov2024 23:22:28.963] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Biomes O' Plenty
-[27Nov2024 23:22:28.963] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Dreams and Desires
-[27Nov2024 23:22:28.964] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Quark
-[27Nov2024 23:22:29.089] [Worker-Bootstrap-2/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 54 Datafixer optimizations took 137 milliseconds
-[27Nov2024 23:22:30.316] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/Servidor-mod/servidor_minecraft/config/toms_storage-common.toml is not correct. Correcting
-[27Nov2024 23:22:30.317] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key importantInfo was corrected from null to its default, true. 
-[27Nov2024 23:22:30.318] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key multiblockInv was corrected from null to its default, []. 
-[27Nov2024 23:22:30.319] [main/INFO] [com.tom.storagemod.StorageMod/]: Loaded Tom's Simple Storage config file toms_storage-common.toml
-[27Nov2024 23:22:30.340] [modloading-worker-0/INFO] [com.tom.storagemod.StorageMod/]: Tom's Storage Setup starting
-[27Nov2024 23:22:30.349] [modloading-worker-0/INFO] [com.tom.storagemod.StorageMod/]: Initilaized Network Handler
-[27Nov2024 23:22:30.534] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
-[27Nov2024 23:22:30.534] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
-[27Nov2024 23:22:30.536] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
-[27Nov2024 23:22:30.536] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
-[27Nov2024 23:22:30.539] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of create:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 4
-[27Nov2024 23:22:30.557] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fastload] Starting version check at https://github.com/BumbleSoftware/Fastload/raw/Forge-1.20.1/updates.json
-[27Nov2024 23:22:30.829] [modloading-worker-0/INFO] [de.mennomax.astikorcarts.AstikorCarts/]: Automatic pull animal configuration:
+[03Dec2024 00:03:27.315] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.3.0, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[03Dec2024 00:03:27.321] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[03Dec2024 00:03:28.111] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/CDP_Reborn-MSX/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[03Dec2024 00:03:28.451] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/CDP_Reborn-MSX/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.3.0/fmlcore-1.19.2-43.3.0.jar is missing mods.toml file
+[03Dec2024 00:03:28.452] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/CDP_Reborn-MSX/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.3.0/javafmllanguage-1.19.2-43.3.0.jar is missing mods.toml file
+[03Dec2024 00:03:28.454] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/CDP_Reborn-MSX/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.3.0/lowcodelanguage-1.19.2-43.3.0.jar is missing mods.toml file
+[03Dec2024 00:03:28.455] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/CDP_Reborn-MSX/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.3.0/mclanguage-1.19.2-43.3.0.jar is missing mods.toml file
+[03Dec2024 00:03:28.714] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 10 dependencies adding them to mods collection
+[03Dec2024 00:03:30.687] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[03Dec2024 00:03:30.766] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[03Dec2024 00:03:31.002] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.18.0+mc1.19.2: 87 options available, 0 override(s) found
+[03Dec2024 00:03:31.003] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[03Dec2024 00:03:31.017] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[03Dec2024 00:03:31.186] [main/WARN] [mixin/]: Error loading class: com/firemerald/additionalplacements/common/ConfigCommon (java.lang.ClassNotFoundException: com.firemerald.additionalplacements.common.ConfigCommon)
+[03Dec2024 00:03:31.187] [main/WARN] [mixin/]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com.firemerald.additionalplacements.block.AdditionalPlacementBlock)
+[03Dec2024 00:03:31.187] [main/WARN] [mixin/]: @Mixin target com.firemerald.additionalplacements.block.AdditionalPlacementBlock was not found copycats-common.mixins.json:compat.additionalplacements.PlacementBlockMixin
+[03Dec2024 00:03:31.217] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me.jellysquid.mods.lithium.common.ai.pathing.PathNodeDefaults)
+[03Dec2024 00:03:31.219] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockOcclusionCache (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.render.chunk.compile.pipeline.BlockOcclusionCache)
+[03Dec2024 00:03:31.220] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/render/pipeline/BlockRenderer (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.render.pipeline.BlockRenderer)
+[03Dec2024 00:03:31.221] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/world/WorldSlice (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.world.WorldSlice)
+[03Dec2024 00:03:31.221] [main/WARN] [mixin/]: @Mixin target me.jellysquid.mods.sodium.client.world.WorldSlice was not found copycats-common.mixins.json:compat.rubidium.WorldSliceAccessor
+[03Dec2024 00:03:31.381] [main/WARN] [mixin/]: Error loading class: cjminecraft/doubleslabs/common/config/DSConfig$Common (java.lang.ClassNotFoundException: cjminecraft.doubleslabs.common.config.DSConfig$Common)
+[03Dec2024 00:03:31.478] [main/WARN] [mixin/]: Error loading class: vazkii/quark/content/tools/module/BeaconRedirectionModule (java.lang.ClassNotFoundException: vazkii.quark.content.tools.module.BeaconRedirectionModule)
+[03Dec2024 00:03:31.478] [main/WARN] [mixin/]: @Mixin target vazkii.quark.content.tools.module.BeaconRedirectionModule was not found mixins.better_beacons.json:quark.BeaconRedirectionModuleMixin
+[03Dec2024 00:03:31.954] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me.jellysquid.mods.lithium.common.ai.pathing.PathNodeDefaults)
+[03Dec2024 00:03:31.978] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/simibubi/create/foundation/gui/AbstractSimiScreen for invalid dist DEDICATED_SERVER
+[03Dec2024 00:03:31.978] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/gui/AbstractSimiScreen (java.lang.RuntimeException: Attempted to load class com/simibubi/create/foundation/gui/AbstractSimiScreen for invalid dist DEDICATED_SERVER)
+[03Dec2024 00:03:31.979] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.foundation.gui.AbstractSimiScreen was not found create_connected.mixins.json:sequencedgearshift.AbstractSimiScreenAccessor
+[03Dec2024 00:03:32.033] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Will be applying 2 memory leak fixes!
+[03Dec2024 00:03:32.034] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Currently enabled memory leak fixes: [entityMemoriesLeak, biomeTemperatureLeak]
+[03Dec2024 00:03:32.041] [main/WARN] [mixin/]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com.firemerald.additionalplacements.block.AdditionalPlacementBlock)
+[03Dec2024 00:03:32.042] [main/WARN] [mixin/]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com.firemerald.additionalplacements.block.AdditionalPlacementBlock)
+[03Dec2024 00:03:32.187] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[03Dec2024 00:03:32.720] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (9.610 s after launch)
+[03Dec2024 00:03:32.878] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[03Dec2024 00:03:32.879] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[03Dec2024 00:03:33.958] [main/WARN] [mixin/]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com.firemerald.additionalplacements.block.AdditionalPlacementBlock)
+[03Dec2024 00:03:34.015] [main/WARN] [mixin/]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com.firemerald.additionalplacements.block.AdditionalPlacementBlock)
+[03Dec2024 00:03:34.242] [main/WARN] [mixin/]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com.firemerald.additionalplacements.block.AdditionalPlacementBlock)
+[03Dec2024 00:03:34.261] [main/WARN] [mixin/]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com.firemerald.additionalplacements.block.AdditionalPlacementBlock)
+[03Dec2024 00:03:34.268] [main/WARN] [mixin/]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com.firemerald.additionalplacements.block.AdditionalPlacementBlock)
+[03Dec2024 00:03:34.747] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2023 milliseconds
+[03Dec2024 00:03:35.315] [main/WARN] [mixin/]: @Final field f_58656_:Lnet/minecraft/world/inventory/ContainerData; in mixins.better_beacons.json:block.entity.BeaconBlockEntityMixin should be final
+[03Dec2024 00:03:35.356] [main/WARN] [mixin/]: @Final field f_58646_:[[Lnet/minecraft/world/effect/MobEffect; in mixins.better_beacons.json:block.entity.BeaconBlockEntityMixin should be final
+[03Dec2024 00:03:35.357] [main/WARN] [mixin/]: @Final field f_58647_:Ljava/util/Set; in mixins.better_beacons.json:block.entity.BeaconBlockEntityMixin should be final
+[03Dec2024 00:03:35.360] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on mixins.better_beacons.json:block.entity.BeaconBlockEntityMixin::handler$zcf000$better_beacons_applyTertiaryEffects exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[03Dec2024 00:03:37.957] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[03Dec2024 00:03:38.332] [modloading-worker-0/INFO] [plus.dragons.createdragonlib.DragonLib/]: Create: Dragon Lib 1.4.4 has initialized, ready to support your Create add-ons!
+[03Dec2024 00:03:38.708] [modloading-worker-0/WARN] [mixin/]: @Redirect conflict. Skipping modernfix-forge.mixins.json:perf.datapack_reload_exceptions.LootTableManagerMixin->@Redirect::logWithoutStacktrace(Lorg/slf4j/Logger;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V with priority 2000, already redirected by railways-common.mixins.json:MixinLootTables->@Redirect::railways$error2(Lorg/slf4j/Logger;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V with priority 10000
+[03Dec2024 00:03:38.764] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.3.0, for MC 1.19.2 with MCP 20220805.130853
+[03Dec2024 00:03:38.767] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.3.0 Initialized
+[03Dec2024 00:03:39.364] [modloading-worker-0/INFO] [Railways/]: Registered bogey styles from railways
+[03Dec2024 00:03:39.586] [modloading-worker-0/INFO] [Railways/]: Registering data fixers
+[03Dec2024 00:03:39.686] [modloading-worker-0/INFO] [ModernFix/]: Bypassed Mojang DFU
+[03Dec2024 00:03:39.686] [modloading-worker-0/INFO] [ModernFix/]: Instantiating Mojang DFU
+[03Dec2024 00:03:40.251] [modloading-worker-0/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[03Dec2024 00:03:40.271] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Hex Casting
+[03Dec2024 00:03:40.272] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Oh The Biomes You'll Go
+[03Dec2024 00:03:40.272] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Blue Skies
+[03Dec2024 00:03:40.273] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Twilight Forest
+[03Dec2024 00:03:40.274] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Biomes O' Plenty
+[03Dec2024 00:03:40.275] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Dreams and Desires
+[03Dec2024 00:03:40.277] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Quark
+[03Dec2024 00:03:40.504] [Worker-Bootstrap-1/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 54 Datafixer optimizations took 242 milliseconds
+[03Dec2024 00:03:41.779] [main/INFO] [com.tom.storagemod.StorageMod/]: Loaded Tom's Simple Storage config file toms_storage-common.toml
+[03Dec2024 00:03:41.805] [modloading-worker-0/INFO] [com.tom.storagemod.StorageMod/]: Tom's Storage Setup starting
+[03Dec2024 00:03:41.808] [modloading-worker-0/INFO] [com.tom.storagemod.StorageMod/]: Initilaized Network Handler
+[03Dec2024 00:03:41.979] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[03Dec2024 00:03:41.980] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[03Dec2024 00:03:41.982] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[03Dec2024 00:03:41.982] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[03Dec2024 00:03:41.985] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of create:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 4
+[03Dec2024 00:03:41.996] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fastload] Starting version check at https://github.com/BumbleSoftware/Fastload/raw/Forge-1.20.1/updates.json
+[03Dec2024 00:03:42.267] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[03Dec2024 00:03:42.280] [modloading-worker-0/INFO] [de.mennomax.astikorcarts.AstikorCarts/]: Automatic pull animal configuration:
 pull_animals = [
     "minecraft:donkey",
     "minecraft:horse",
@@ -83,58 +81,24 @@ pull_animals = [
     "minecraft:zombie_horse",
     "minecraft:player"
   ]
-[27Nov2024 23:22:30.868] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fastload] Found status: UP_TO_DATE Current: 3.4.0 Target: null
-[27Nov2024 23:22:30.868] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [copycats] Starting version check at https://raw.githubusercontent.com/copycats-plus/copycats/multiloader/update.json
-[27Nov2024 23:22:30.877] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [copycats] Found status: AHEAD Current: 2.1.4+mc.1.19.2-forge Target: null
-[27Nov2024 23:22:30.878] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_jetpack] Starting version check at https://api.modrinth.com/updates/create-jetpack/forge_updates.json
-[27Nov2024 23:22:30.994] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_jetpack] Found status: UP_TO_DATE Current: 3.4.2 Target: null
-[27Nov2024 23:22:30.994] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
-[27Nov2024 23:22:31.046] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[27Nov2024 23:22:31.048] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: AHEAD Current: 0.6.10-20 Target: null
-[27Nov2024 23:22:31.048] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.19.2
-[27Nov2024 23:22:31.206] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: toms_storage:ts.inventory_connector Expected: 1953 Got: 2030
-[27Nov2024 23:22:31.207] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: toms_storage:ts.storage_terminal Expected: 1954 Got: 2031
-[27Nov2024 23:22:31.207] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: toms_storage:ts.trim Expected: 1955 Got: 2032
-[27Nov2024 23:22:31.207] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: toms_storage:ts.open_crate Expected: 1956 Got: 2033
-[27Nov2024 23:22:31.208] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: toms_storage:ts.painted_trim Expected: 1957 Got: 2034
-[27Nov2024 23:22:31.208] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: toms_storage:ts.inventory_cable Expected: 1958 Got: 2035
-[27Nov2024 23:22:31.208] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: toms_storage:ts.inventory_cable_framed Expected: 1959 Got: 2036
-[27Nov2024 23:22:31.208] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: toms_storage:ts.inventory_cable_connector Expected: 1960 Got: 2037
-[27Nov2024 23:22:31.209] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: toms_storage:ts.inventory_cable_connector_filtered Expected: 1961 Got: 2038
-[27Nov2024 23:22:31.209] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: toms_storage:ts.inventory_cable_connector_framed Expected: 1962 Got: 2039
-[27Nov2024 23:22:31.209] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: toms_storage:ts.inventory_proxy Expected: 1963 Got: 2040
-[27Nov2024 23:22:31.209] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: toms_storage:ts.crafting_terminal Expected: 1964 Got: 2041
-[27Nov2024 23:22:31.210] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: toms_storage:ts.inventory_hopper_basic Expected: 1965 Got: 2042
-[27Nov2024 23:22:31.210] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: toms_storage:ts.level_emitter Expected: 1966 Got: 2043
-[27Nov2024 23:22:31.211] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: toms_storage:ts.inventory_connector Expected: 2408 Got: 1220
-[27Nov2024 23:22:31.211] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: toms_storage:ts.storage_terminal Expected: 2409 Got: 1221
-[27Nov2024 23:22:31.211] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: toms_storage:ts.trim Expected: 2410 Got: 1222
-[27Nov2024 23:22:31.212] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: toms_storage:ts.open_crate Expected: 2411 Got: 1223
-[27Nov2024 23:22:31.212] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: toms_storage:ts.painted_trim Expected: 2412 Got: 1224
-[27Nov2024 23:22:31.212] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: toms_storage:ts.inventory_cable Expected: 2413 Got: 1225
-[27Nov2024 23:22:31.212] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: toms_storage:ts.inventory_cable_framed Expected: 2414 Got: 1226
-[27Nov2024 23:22:31.213] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: toms_storage:ts.inventory_cable_connector Expected: 2415 Got: 1227
-[27Nov2024 23:22:31.213] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: toms_storage:ts.inventory_cable_connector_filtered Expected: 2416 Got: 1228
-[27Nov2024 23:22:31.213] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: toms_storage:ts.inventory_cable_connector_framed Expected: 2417 Got: 1229
-[27Nov2024 23:22:31.213] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: toms_storage:ts.inventory_proxy Expected: 2418 Got: 1230
-[27Nov2024 23:22:31.213] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: toms_storage:ts.crafting_terminal Expected: 2419 Got: 1231
-[27Nov2024 23:22:31.213] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: toms_storage:ts.inventory_hopper_basic Expected: 2420 Got: 1232
-[27Nov2024 23:22:31.214] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: toms_storage:ts.level_emitter Expected: 2421 Got: 1233
-[27Nov2024 23:22:31.214] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: toms_storage:ts.paint_kit Expected: 2422 Got: 1234
-[27Nov2024 23:22:31.214] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: toms_storage:ts.wireless_terminal Expected: 2423 Got: 1235
-[27Nov2024 23:22:31.214] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: toms_storage:ts.adv_wireless_terminal Expected: 2424 Got: 1236
-[27Nov2024 23:22:31.214] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: toms_storage:ts.item_filter Expected: 2425 Got: 1237
-[27Nov2024 23:22:31.215] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: toms_storage:ts.polymorphic_item_filter Expected: 2426 Got: 1238
-[27Nov2024 23:22:31.215] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: toms_storage:ts.tag_item_filter Expected: 2427 Got: 1239
-[27Nov2024 23:22:31.328] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/Servidor-mod/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23155!/assets/.mcassetsroot' uses unexpected schema
-[27Nov2024 23:22:31.328] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/Servidor-mod/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23155!/data/.mcassetsroot' uses unexpected schema
-[27Nov2024 23:22:31.425] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 9.0.0+14 Target: 9.0.0+14
-[27Nov2024 23:22:31.425] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
-[27Nov2024 23:22:31.498] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 8.2.41 Target: null
-[27Nov2024 23:22:31.499] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_power_loader] Starting version check at https://raw.githubusercontent.com/hlysine/create_power_loader/main/update.json
-[27Nov2024 23:22:31.509] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_power_loader] Found status: UP_TO_DATE Current: 1.5.0-mc1.19.2 Target: null
-[27Nov2024 23:22:31.509] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_andtaverns_mr] Starting version check at https://api.modrinth.comauth/init?url=https://modrinth.com/datapack/dungeons-and-taverns/version/2.0.2/updates/tpehi7ww/forge_updates.json
-[27Nov2024 23:22:31.533] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[03Dec2024 00:03:42.292] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fastload] Found status: UP_TO_DATE Current: 3.4.0 Target: null
+[03Dec2024 00:03:42.292] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [copycats] Starting version check at https://raw.githubusercontent.com/copycats-plus/copycats/multiloader/update.json
+[03Dec2024 00:03:42.301] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [copycats] Found status: AHEAD Current: 2.1.4+mc.1.19.2-forge Target: null
+[03Dec2024 00:03:42.301] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_jetpack] Starting version check at https://api.modrinth.com/updates/create-jetpack/forge_updates.json
+[03Dec2024 00:03:42.429] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03Dec2024 00:03:42.457] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_jetpack] Found status: UP_TO_DATE Current: 3.4.2 Target: null
+[03Dec2024 00:03:42.457] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[03Dec2024 00:03:42.504] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: AHEAD Current: 0.6.10-20 Target: null
+[03Dec2024 00:03:42.505] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.19.2
+[03Dec2024 00:03:42.713] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/CDP_Reborn-MSX/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23155!/assets/.mcassetsroot' uses unexpected schema
+[03Dec2024 00:03:42.713] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/CDP_Reborn-MSX/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23155!/data/.mcassetsroot' uses unexpected schema
+[03Dec2024 00:03:42.874] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 9.0.0+14 Target: 9.0.0+14
+[03Dec2024 00:03:42.875] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[03Dec2024 00:03:42.919] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 8.2.41 Target: null
+[03Dec2024 00:03:42.920] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_power_loader] Starting version check at https://raw.githubusercontent.com/hlysine/create_power_loader/main/update.json
+[03Dec2024 00:03:42.932] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_power_loader] Found status: UP_TO_DATE Current: 1.5.0-mc1.19.2 Target: null
+[03Dec2024 00:03:42.933] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_andtaverns_mr] Starting version check at https://api.modrinth.comauth/init?url=https://modrinth.com/datapack/dungeons-and-taverns/version/2.0.2/updates/tpehi7ww/forge_updates.json
+[03Dec2024 00:03:43.033] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 java.net.ConnectException: null
 	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:951) ~[java.net.http:?]
 	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
@@ -201,13 +165,13 @@ Caused by: java.nio.channels.UnresolvedAddressException
 	at jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:1047) ~[java.net.http:?]
 	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:930) ~[java.net.http:?]
 	... 5 more
-[27Nov2024 23:22:31.537] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[27Nov2024 23:22:31.621] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.3.0 Target: 43.4.0
-[27Nov2024 23:22:31.622] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [toms_storage] Starting version check at https://raw.githubusercontent.com/tom5454/Toms-Storage/master/version-check.json
-[27Nov2024 23:22:31.632] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [toms_storage] Found status: BETA Current: 1.5.11 Target: 1.5.11
-[27Nov2024 23:22:31.633] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_connected] Starting version check at https://raw.githubusercontent.com/hlysine/create_connected/main/update.json
-[27Nov2024 23:22:31.641] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_connected] Found status: UP_TO_DATE Current: 0.8.2-mc1.19.2 Target: null
-[27Nov2024 23:22:33.460] [Worker-Main-5/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file create_more_automation:blank_recipe from create_more_automation:recipes/blank_recipe.json
+[03Dec2024 00:03:43.039] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[03Dec2024 00:03:43.188] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.3.0 Target: 43.4.0
+[03Dec2024 00:03:43.188] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [toms_storage] Starting version check at https://raw.githubusercontent.com/tom5454/Toms-Storage/master/version-check.json
+[03Dec2024 00:03:43.200] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [toms_storage] Found status: BETA Current: 1.5.11 Target: 1.5.11
+[03Dec2024 00:03:43.201] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_connected] Starting version check at https://raw.githubusercontent.com/hlysine/create_connected/main/update.json
+[03Dec2024 00:03:43.213] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_connected] Found status: UP_TO_DATE Current: 0.8.2-mc1.19.2 Target: null
+[03Dec2024 00:03:45.021] [Worker-Main-4/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file create_more_automation:blank_recipe from create_more_automation:recipes/blank_recipe.json
 com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
 	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:512) ~[server-1.19.2-20220805.130853-srg.jar%23155!/:?]
 	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:549) ~[server-1.19.2-20220805.130853-srg.jar%23155!/:?]
@@ -230,7 +194,7 @@ Caused by: java.io.EOFException: End of input at line 1 column 1 path $
 	at com.google.gson.internal.bind.TypeAdapters$33$1.read(TypeAdapters.java:866) ~[gson-2.8.9.jar%2370!/:?]
 	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:510) ~[server-1.19.2-20220805.130853-srg.jar%23155!/:?]
 	... 11 more
-[27Nov2024 23:22:33.721] [Worker-Main-4/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file nova_structures:chests/water_supply from nova_structures:loot_tables/chests/water_supply.json
+[03Dec2024 00:03:45.223] [Worker-Main-6/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file nova_structures:chests/water_supply from nova_structures:loot_tables/chests/water_supply.json
 com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Unterminated array at line 17 column 10 path $.pools[0].entries[1]
 	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:512) ~[server-1.19.2-20220805.130853-srg.jar%23155!/:?]
 	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:549) ~[server-1.19.2-20220805.130853-srg.jar%23155!/:?]
@@ -256,71 +220,167 @@ Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at 
 	at com.google.gson.internal.bind.TypeAdapters$33$1.read(TypeAdapters.java:866) ~[gson-2.8.9.jar%2370!/:?]
 	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:510) ~[server-1.19.2-20220805.130853-srg.jar%23155!/:?]
 	... 11 more
-[27Nov2024 23:22:34.017] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_board as it's serializer returned null
-[27Nov2024 23:22:34.028] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/electrum_ingot recipe (createaddition:rolling/electrum_ingot) specified a duration. Durations have no impact on this type of recipe.
-[27Nov2024 23:22:34.032] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_slab_from_steps as it's serializer returned null
-[27Nov2024 23:22:34.039] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_catwalk as it's serializer returned null
-[27Nov2024 23:22:34.043] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_fence as it's serializer returned null
-[27Nov2024 23:22:34.049] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_beam as it's serializer returned null
-[27Nov2024 23:22:34.053] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_stairs as it's serializer returned null
-[27Nov2024 23:22:34.062] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_vertical_step_from_conversion as it's serializer returned null
-[27Nov2024 23:22:34.065] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_wall as it's serializer returned null
-[27Nov2024 23:22:34.070] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/brass_ingot recipe (createaddition:rolling/brass_ingot) specified a duration. Durations have no impact on this type of recipe.
-[27Nov2024 23:22:34.070] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/electrum_plate recipe (createaddition:rolling/electrum_plate) specified a duration. Durations have no impact on this type of recipe.
-[27Nov2024 23:22:34.073] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_vertical_step as it's serializer returned null
-[27Nov2024 23:22:34.081] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_box as it's serializer returned null
-[27Nov2024 23:22:34.082] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/iron_ingot recipe (createaddition:rolling/iron_ingot) specified a duration. Durations have no impact on this type of recipe.
-[27Nov2024 23:22:34.083] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_slab as it's serializer returned null
-[27Nov2024 23:22:34.087] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/copper_ingot recipe (createaddition:rolling/copper_ingot) specified a duration. Durations have no impact on this type of recipe.
-[27Nov2024 23:22:34.088] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_slab_from_beams as it's serializer returned null
-[27Nov2024 23:22:34.089] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/copper_plate recipe (createaddition:rolling/copper_plate) specified a duration. Durations have no impact on this type of recipe.
-[27Nov2024 23:22:34.097] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/iron_plate recipe (createaddition:rolling/iron_plate) specified a duration. Durations have no impact on this type of recipe.
-[27Nov2024 23:22:34.102] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_slab_from_panels as it's serializer returned null
-[27Nov2024 23:22:34.114] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_fence_gate as it's serializer returned null
-[27Nov2024 23:22:34.115] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/gold_ingot recipe (createaddition:rolling/gold_ingot) specified a duration. Durations have no impact on this type of recipe.
-[27Nov2024 23:22:34.116] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/straw recipe (createaddition:rolling/straw) specified a duration. Durations have no impact on this type of recipe.
-[27Nov2024 23:22:34.120] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_block_from_slabs as it's serializer returned null
-[27Nov2024 23:22:34.121] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/gold_plate recipe (createaddition:rolling/gold_plate) specified a duration. Durations have no impact on this type of recipe.
-[27Nov2024 23:22:34.127] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_block as it's serializer returned null
-[27Nov2024 23:22:34.129] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 26 recipes
-[27Nov2024 23:22:34.590] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3099 advancements
-[27Nov2024 23:22:34.744] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
-[27Nov2024 23:22:34.744] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[27Nov2024 23:22:34.745] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[27Nov2024 23:22:34.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[27Nov2024 23:22:34.966] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[27Nov2024 23:22:34.989] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[27Nov2024 23:22:35.068] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[27Nov2024 23:22:35.069] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[27Nov2024 23:22:35.069] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[27Nov2024 23:22:35.069] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[27Nov2024 23:22:35.091] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/toms_storage-server.toml is not correct. Correcting
-[27Nov2024 23:22:35.092] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key inventoryConnectorRange was corrected from null to its default, 16. 
-[27Nov2024 23:22:35.093] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key onlyTrimsConnect was corrected from null to its default, false. 
-[27Nov2024 23:22:35.093] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key invCableConnectorMaxScanSize was corrected from null to its default, 2048. 
-[27Nov2024 23:22:35.094] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wirelessReach was corrected from null to its default, 16. 
-[27Nov2024 23:22:35.095] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key advWirelessRange was corrected from null to its default, 64. 
-[27Nov2024 23:22:35.095] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wirelessTermBeaconLvl was corrected from null to its default, 1. 
-[27Nov2024 23:22:35.096] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wirelessTermBeaconLvlDim was corrected from null to its default, 4. 
-[27Nov2024 23:22:35.097] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key invLinkBeaconLvl was corrected from null to its default, 1. 
-[27Nov2024 23:22:35.098] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key invLinkBeaconLvlDim was corrected from null to its default, 2. 
-[27Nov2024 23:22:35.099] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key invDupScanSize was corrected from null to its default, 100. 
-[27Nov2024 23:22:35.099] [Server thread/INFO] [com.tom.storagemod.StorageMod/]: Loaded Tom's Simple Storage config file toms_storage-server.toml
-[27Nov2024 23:22:35.147] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[27Nov2024 23:22:35.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[27Nov2024 23:22:36.012] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
-[27Nov2024 23:22:37.754] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 11463787 ms
-[27Nov2024 23:22:37.754] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (2.675s)! For help, type "help"
-[27Nov2024 23:22:37.779] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[27Nov2024 23:22:37.781] [Server thread/WARN] [ModernFix/]: Dedicated server took 22.471 seconds to load
-[27Nov2024 23:23:22.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[27Nov2024 23:23:22.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[27Nov2024 23:23:22.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[27Nov2024 23:23:22.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[27Nov2024 23:23:23.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[27Nov2024 23:23:28.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[27Nov2024 23:23:28.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[27Nov2024 23:23:28.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[27Nov2024 23:23:28.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[27Nov2024 23:23:28.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[27Nov2024 23:23:28.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03Dec2024 00:03:45.467] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_board as it's serializer returned null
+[03Dec2024 00:03:45.477] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/electrum_ingot recipe (createaddition:rolling/electrum_ingot) specified a duration. Durations have no impact on this type of recipe.
+[03Dec2024 00:03:45.479] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_slab_from_steps as it's serializer returned null
+[03Dec2024 00:03:45.488] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_catwalk as it's serializer returned null
+[03Dec2024 00:03:45.492] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_fence as it's serializer returned null
+[03Dec2024 00:03:45.498] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_beam as it's serializer returned null
+[03Dec2024 00:03:45.501] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_stairs as it's serializer returned null
+[03Dec2024 00:03:45.510] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_vertical_step_from_conversion as it's serializer returned null
+[03Dec2024 00:03:45.514] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_wall as it's serializer returned null
+[03Dec2024 00:03:45.519] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/brass_ingot recipe (createaddition:rolling/brass_ingot) specified a duration. Durations have no impact on this type of recipe.
+[03Dec2024 00:03:45.520] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/electrum_plate recipe (createaddition:rolling/electrum_plate) specified a duration. Durations have no impact on this type of recipe.
+[03Dec2024 00:03:45.523] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_vertical_step as it's serializer returned null
+[03Dec2024 00:03:45.533] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_box as it's serializer returned null
+[03Dec2024 00:03:45.534] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/iron_ingot recipe (createaddition:rolling/iron_ingot) specified a duration. Durations have no impact on this type of recipe.
+[03Dec2024 00:03:45.535] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_slab as it's serializer returned null
+[03Dec2024 00:03:45.540] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/copper_ingot recipe (createaddition:rolling/copper_ingot) specified a duration. Durations have no impact on this type of recipe.
+[03Dec2024 00:03:45.541] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_slab_from_beams as it's serializer returned null
+[03Dec2024 00:03:45.542] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/copper_plate recipe (createaddition:rolling/copper_plate) specified a duration. Durations have no impact on this type of recipe.
+[03Dec2024 00:03:45.550] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/iron_plate recipe (createaddition:rolling/iron_plate) specified a duration. Durations have no impact on this type of recipe.
+[03Dec2024 00:03:45.555] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_slab_from_panels as it's serializer returned null
+[03Dec2024 00:03:45.568] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_fence_gate as it's serializer returned null
+[03Dec2024 00:03:45.569] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/gold_ingot recipe (createaddition:rolling/gold_ingot) specified a duration. Durations have no impact on this type of recipe.
+[03Dec2024 00:03:45.571] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/straw recipe (createaddition:rolling/straw) specified a duration. Durations have no impact on this type of recipe.
+[03Dec2024 00:03:45.576] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_block_from_slabs as it's serializer returned null
+[03Dec2024 00:03:45.577] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/gold_plate recipe (createaddition:rolling/gold_plate) specified a duration. Durations have no impact on this type of recipe.
+[03Dec2024 00:03:45.594] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_block as it's serializer returned null
+[03Dec2024 00:03:45.598] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 26 recipes
+[03Dec2024 00:03:46.059] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3098 advancements
+[03Dec2024 00:03:46.221] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
+[03Dec2024 00:03:46.221] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[03Dec2024 00:03:46.221] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[03Dec2024 00:03:46.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[03Dec2024 00:03:46.355] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[03Dec2024 00:03:46.381] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[03Dec2024 00:03:46.475] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03Dec2024 00:03:46.476] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[03Dec2024 00:03:46.476] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03Dec2024 00:03:46.476] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[03Dec2024 00:03:46.501] [Server thread/INFO] [com.tom.storagemod.StorageMod/]: Loaded Tom's Simple Storage config file toms_storage-server.toml
+[03Dec2024 00:03:46.549] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[03Dec2024 00:03:46.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[03Dec2024 00:03:49.127] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 440517 ms
+[03Dec2024 00:03:49.128] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (2.640s)! For help, type "help"
+[03Dec2024 00:03:49.150] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[03Dec2024 00:03:49.152] [Server thread/WARN] [ModernFix/]: Dedicated server took 26.044 seconds to load
+[03Dec2024 00:03:57.310] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@253a5c83
+[03Dec2024 00:03:57.337] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mecaxoficial[/127.248.170.194:40223] logged in with entity id 180 at (-451.0020563839371, 63.0, -448.40537693350166)
+[03Dec2024 00:03:57.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mecaxoficial joined the game
+[03Dec2024 00:10:00.558] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/2625, l='ServerLevel[world]', x=141.50, y=80.87, z=-748.50] died, message: 'Villager tried to swim in lava'
+[03Dec2024 00:10:04.748] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 9.784736985077672,1.8194211540136962,-3.7618885297946463
+[03Dec2024 00:10:04.757] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 10.541691166090544,1.9508700536242713,-4.05488347740652
+[03Dec2024 00:10:04.759] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 11.299116409592386,2.080766350462909,-4.349442422911011
+[03Dec2024 00:10:04.760] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 12.056960261002388,2.2091020909870167,-4.645737096701623
+[03Dec2024 00:10:04.766] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 12.81516648912239,2.3358845285009693,-4.943924081382988
+[03Dec2024 00:10:04.766] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 13.573676100979071,2.461135499602051,-5.2441435780908705
+[03Dec2024 00:10:04.767] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 14.332428280981162,2.5848905788178342,-5.546518545460344
+[03Dec2024 00:10:04.767] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 15.09136142429395,2.7071980190935676,-5.851153945779629
+[03Dec2024 00:10:04.768] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 15.850414125009053,2.828117498149254,-6.158136343441129
+[03Dec2024 00:10:04.769] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 16.60952619184917,2.9477186965367537,-6.467533648211088
+[03Dec2024 00:10:04.769] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 17.36863958508829,3.066079731677746,-6.779395175369473
+[03Dec2024 00:10:04.770] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 18.12769934608866,3.1832854806525006,-7.0937518990466515
+[03Dec2024 00:10:04.770] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 18.886654414606824,3.299425822893568,-7.4106169356341525
+[03Dec2024 00:10:04.771] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 19.64545842336196,3.4145938359594936,-7.72998622042951
+[03Dec2024 00:10:04.771] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 20.404070308140092,3.5288839909992475,-8.051839469470224
+[03Dec2024 00:10:04.772] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 21.16245491584263,3.6423903731053144,-8.376141165876334
+[03Dec2024 00:10:04.772] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 21.92058340700899,3.755204963410563,-8.702841867547022
+[03Dec2024 00:10:04.773] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 22.67843355778095,3.86741602220593,-9.031879541292597
+[03Dec2024 00:10:04.773] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 23.435989959451916,3.979106607310655,-9.363181038117204
+[03Dec2024 00:10:04.774] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 24.193244088779977,4.090353253827914,-9.696663618007733
+[03Dec2024 00:10:04.777] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 24.950194216932488,4.201224846298743,-10.03223644242371
+[03Dec2024 00:10:04.779] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 25.706845214379968,4.311781697078459,-10.369802155784441
+[03Dec2024 00:10:04.779] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 26.463208240474046,4.422074852376369,-10.709258461576951
+[03Dec2024 00:10:04.780] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 27.21930031982555,4.532145649690534,-11.050499537595783
+[03Dec2024 00:10:04.780] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 27.975143774226154,4.642025514956828,-11.393417518327624
+[03Dec2024 00:10:04.781] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 28.730765638738347,4.751736011073319,-11.737903748504777
+[03Dec2024 00:10:04.781] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 29.486196946254466,4.861289136802924,-12.083849959069084
+[03Dec2024 00:10:04.782] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 30.241471957770983,4.970687865710346,-12.43114925109262
+[03Dec2024 00:10:04.782] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 30.99662733416241,5.07992690636803,-12.779697042845442
+[03Dec2024 00:10:04.783] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 31.75170129400678,5.188993670995018,-13.129391754635549
+[03Dec2024 00:10:04.784] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 32.50673275470618,5.297869430296515,-13.48013528563672
+[03Dec2024 00:10:04.785] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 33.26176052816905,5.406530630340143,-13.831833297953722
+[03Dec2024 00:10:04.785] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 34.016822441193966,5.514950327785954,-14.18439549386801
+[03Dec2024 00:10:04.786] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 34.77195454717483,5.623099746013878,-14.537735575714919
+[03Dec2024 00:10:04.786] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 35.52719032259543,5.73094988462779,-14.89177115550035
+[03Dec2024 00:10:04.787] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 36.28256004657848,5.838473161874845,-15.246423368725345
+[03Dec2024 00:10:04.787] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 37.03809012114144,5.945645057046221,-15.601616535605217
+[03Dec2024 00:10:04.787] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 37.79380255185319,6.052445717432619,-15.957277648430363
+[03Dec2024 00:10:04.788] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 38.5497145449161,6.158861492782279,-16.3133356857237
+[03Dec2024 00:10:04.788] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 39.305838123418624,6.264886367329154,-16.66972094677658
+[03Dec2024 00:10:04.789] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 40.06217987266686,6.3705232510418455,-17.026364428741772
+[03Dec2024 00:10:04.789] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 40.81874081550424,6.475785113083532,-17.38319703321997
+[03Dec2024 00:10:04.792] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4189ms or 83 ticks behind
+[03Dec2024 00:10:04.812] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 32.54721458797084,4.894252722123184,-14.269876753215499
+[03Dec2024 00:10:04.813] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 33.30419439187418,4.998848145260126,-14.626876276750409
+[03Dec2024 00:10:04.814] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 34.06136282547865,5.103176075800235,-14.983849898154972
+[03Dec2024 00:10:04.815] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 34.818698968130235,5.207296851499933,-15.340721263596834
+[03Dec2024 00:10:04.815] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 35.57617695560245,5.311283242848475,-15.697410760062098
+[03Dec2024 00:10:04.816] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 36.3337663352672,5.415220171105602,-16.05383518380654
+[03Dec2024 00:10:04.816] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 37.091432498673925,5.519204163966975,-16.409907527686187
+[03Dec2024 00:10:04.817] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 37.84913716583989,5.623342552298681,-16.765536833970373
+[03Dec2024 00:10:04.817] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 38.60683889138491,5.727752421499105,-17.12062829044953
+[03Dec2024 00:10:04.817] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 39.364493658179725,5.8325593320113285,-17.475083353185937
+[03Dec2024 00:10:04.818] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 40.1220554277493,5.937895824879831,-17.828800156310194
+[03Dec2024 00:10:04.818] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 40.87947678120108,6.043899755789965,-18.18167403723419
+[03Dec2024 00:10:04.819] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 41.636709521112124,6.150712465365501,-18.53359816144382
+[03Dec2024 00:10:04.819] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 42.39370526876647,6.2584768437491505,-18.884464466087593
+[03Dec2024 00:10:04.819] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 43.15041611698646,6.367335306811583,-19.234164469613233
+[03Dec2024 00:10:04.820] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 43.90679526144751,6.477427733952055,-19.582590480071758
+[03Dec2024 00:10:04.820] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 44.6627975772989,6.588889415313105,-19.92963664599472
+[03Dec2024 00:10:04.821] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 45.41838024022732,6.701849022814855,-20.27520021118528
+[03Dec2024 00:10:04.821] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 46.17350327226521,6.816426675421354,-20.619182839863925
+[03Dec2024 00:10:04.821] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 46.92813002920454,6.932732115772893,-20.961491951841936
+[03Dec2024 00:10:04.822] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 47.6822277298364,7.050863038424154,-21.30204201040317
+[03Dec2024 00:10:04.822] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 48.43576784982329,7.170903607019284,-21.640755788381625
+[03Dec2024 00:10:04.823] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 49.18872652134738,7.292923170119451,-21.977565617236678
+[03Dec2024 00:10:04.823] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 49.94108484831267,7.416975214401276,-22.312414489619073
+[03Dec2024 00:10:04.824] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 50.69282913075935,7.543096561869788,-22.64525702980609
+[03Dec2024 00:10:04.824] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 51.44395102801931,7.6713068230016574,-22.97606038260176
+[03Dec2024 00:10:04.824] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 52.19444767213295,7.801608102681115,-23.30480488168223
+[03Dec2024 00:10:04.825] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 52.94432165024293,7.933984968719017,-23.63148464929577
+[03Dec2024 00:10:04.825] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 53.69358094805531,8.0684046804013,-23.956107784696883
+[03Dec2024 00:10:04.826] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 54.442238741257626,8.204817636207252,-24.278696649860763
+[03Dec2024 00:10:04.826] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 55.1903131767269,8.34315806553991,-24.5992876751493
+[03Dec2024 00:10:04.826] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 55.93782706617557,8.483344911065473,-24.917931058418162
+[03Dec2024 00:10:04.827] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 56.684807436204636,8.625282908702587,-25.234690450747735
+[03Dec2024 00:10:04.909] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 57.43128511178307,8.768863818407908,-25.54964214315214
+[03Dec2024 00:10:04.934] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 58.17729420291906,8.913967787555436,-25.86287427643481
+[03Dec2024 00:10:04.999] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 58.92287155595821,9.060464830633407,-26.17448583056364
+[03Dec2024 00:10:05.033] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Biplane (vehicle of Mecaxoficial) moved too quickly! 59.66805620292476,9.208216376112375,-26.48458543655977
+[03Dec2024 00:59:23.415] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mecaxoficial lost connection: Disconnected
+[03Dec2024 00:59:23.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mecaxoficial left the game
+[03Dec2024 01:44:39.211] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@6046bb6f
+[03Dec2024 01:44:39.223] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mecaxoficial[/127.248.170.194:37621] logged in with entity id 13129 at (711.5, 119.0, -806.5)
+[03Dec2024 01:44:39.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mecaxoficial joined the game
+[03Dec2024 01:48:42.925] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Cow['Cow'/14979, l='ServerLevel[world]', x=241.62, y=91.02, z=-267.50]
+[03Dec2024 01:50:54.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mecaxoficial was doomed to fall
+[03Dec2024 02:11:41.760] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mecaxoficial lost connection: Timed out
+[03Dec2024 02:11:41.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mecaxoficial left the game
+[03Dec2024 02:11:41.808] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[03Dec2024 02:16:04.754] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@3e54ccfc
+[03Dec2024 02:16:04.767] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mecaxoficial[/127.248.170.194:39743] logged in with entity id 24100 at (690.0591271620631, 119.0, -822.9968252402911)
+[03Dec2024 02:16:04.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mecaxoficial joined the game
+[03Dec2024 02:17:56.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mecaxoficial was slain by Enderman
+[03Dec2024 02:35:32.308] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mecaxoficial lost connection: Disconnected
+[03Dec2024 02:35:32.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mecaxoficial left the game
+[03Dec2024 02:40:53.915] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@25ca7362
+[03Dec2024 02:40:53.923] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mecaxoficial[/127.248.170.194:53921] logged in with entity id 27120 at (709.5, 119.0, -806.5)
+[03Dec2024 02:40:53.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mecaxoficial joined the game
+[03Dec2024 02:54:23.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mecaxoficial was slain by Zombie
+[03Dec2024 03:20:25.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mecaxoficial burned to death
+[03Dec2024 03:44:29.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mecaxoficial has made the advancement [Voluntary Exile]
+[03Dec2024 03:55:56.658] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mecaxoficial lost connection: Disconnected
+[03Dec2024 03:55:56.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mecaxoficial left the game
+[03Dec2024 03:56:06.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[03Dec2024 03:56:06.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[03Dec2024 03:56:06.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[03Dec2024 03:56:06.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[03Dec2024 03:56:07.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03Dec2024 03:56:07.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03Dec2024 03:56:07.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03Dec2024 03:56:07.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03Dec2024 03:56:07.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03Dec2024 03:56:07.425] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03Dec2024 03:56:07.425] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
