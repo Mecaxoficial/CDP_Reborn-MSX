@@ -19,7 +19,7 @@
 		invulnerableBackpack = true
 		toolSlotsAcceptSwords = true
 		#List of items that can be put in tool slots (Use registry names, for example: "minecraft:apple", "minecraft:flint")
-		toolSlotsAcceptableItems = ["create:wrench", "create:potato_cannon", "create:extendo_grip", "create_sa:flamethrower", "create_sa:portable_drill", "create_sa:grapplin_whisk", "create_sa:block_picker"]
+		toolSlotsAcceptableItems = ["create:wrench", "create:potato_cannon", "create:extendo_grip"]
 		#Tool slots accept any item
 		toolSlotsAcceptEverything = false
 		#List of items that can't be put in backpack inventory (Use registry names, for example: "minecraft:apple", "minecraft:flint")
